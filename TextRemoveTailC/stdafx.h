@@ -11,5 +11,11 @@
 #include <tchar.h>
 
 
+#include <stdlib.h>
+#include <iostream>
 
 // TODO:  在此处引用程序需要的其他头文件
+void Wide2Bytes(char* pBytes, TCHAR* pWide);
+int wstrlen(_TCHAR * wstr);
+char * wstrdup(_TCHAR * wSrc);
+char ** allocate_argn(int argc, _TCHAR* argv[]);
