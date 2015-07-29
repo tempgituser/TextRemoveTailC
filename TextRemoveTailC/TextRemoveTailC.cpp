@@ -63,7 +63,7 @@ int doRemoveTail(char* inputFile){
 		//wcout << "²Ã¼ô½á¹û£º" << line << endl;
 
 		strcat_s(outputContent, fileSize, line);
-		strcat_s(outputContent, fileSize, "\r\n");
+		strcat_s(outputContent, fileSize, "\n\r");
 	}
 	fclose(input);
 
